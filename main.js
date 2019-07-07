@@ -20,7 +20,7 @@ function init() {
 
 //  const material = new THREE.MeshBasicMaterial({color: 0x00ff00}); // using only color
 
-  const texture = new THREE.TextureLoader().load('blue2.jpg');
+  const texture = new THREE.TextureLoader().load('map.jpg');
   const material = new THREE.MeshBasicMaterial({map: texture});
   cube = new THREE.Mesh (geometry, material);
   scene.add( cube );
